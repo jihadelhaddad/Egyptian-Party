@@ -1,0 +1,140 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+
+header {
+  background-image: url(../img/events-heavenly-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.layer {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.left {
+  height: 100%;
+  width: 0px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-bottom: 52px;
+}
+
+.left a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.left a:hover {
+  color: #5d1a1c;
+  transition: 0.3s;
+}
+
+.left #close-btn {
+  cursor: pointer;
+  right: 6px;
+  color: white;
+  top: 15px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.left #close-btn:hover {
+  color: #5d1a1c;
+  transition: 0.3s;
+}
+
+#side-btn {
+  justify-self: self-start;
+  font-size: 30px;
+  cursor: pointer;
+  bottom: 100px;
+  color: white;
+  position: relative;
+  left: 0px;
+  top: -350px;
+  transition: 0.3s;
+}
+.left {
+  transition: 0.3s;
+}
+
+/* Header */
+
+/* Signers */
+
+.singer {
+  padding: 0.625rem;
+  font-size: 1.5625rem;
+  cursor: pointer;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: #fff;
+}
+
+.singers .info:not(:nth-child(2)) {
+  display: none;
+}
+
+.info {
+  background-color: #ccc;
+}
+
+/* Signers */
+
+/* Time */
+
+#time {
+  background-image: url(../img/invitation-2508607__340.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.time-item {
+  border: solid 2px white;
+}
+
+footer > * p,
+footer * i {
+  color: #777;
+}
+
+.social-media i {
+  cursor: pointer;
+  border: solid 2px #777;
+  transition: 0.3s;
+  border-radius: 13px;
+}
+
+.social-media i:hover {
+  background-color: red;
+  border-color: red;
+  color: white;
+  transition: 0.3s;
+}
+
+textarea.form-control {
+  min-height: 150px;
+}
+
+/* Time */
